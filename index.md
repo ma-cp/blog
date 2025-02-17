@@ -47,10 +47,6 @@ title: ma-cp的blog
 </body>
 
 <style>
-    a {
-    text-decoration: none;
-    color: inherit;
-    }
     .warpper{
       display:flex;
       flex-direction: column;
