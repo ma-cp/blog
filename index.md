@@ -24,17 +24,15 @@ title: ma-cp的blog
   <div class="panels">
   <div class="panel" id="one-panel">
     <div class="panel-title">精益求精</div>
-    <p>
-        <a href="https://telegra.ph/%E8%AE%B0github-pages-02-17">记github-pages</a>
-    </p>
+    <p><a href="https://telegra.ph/%E8%AE%B0github-pages-02-17">记github-pages</a></p>
   </div>
   <div class="panel" id="two-panel">
     <div class="panel-title">虽有智慧，不如乘势。</div>
-    <p>You will learn many aspects of styling web pages! You’ll be able to set up the correct file structure, edit text and colors, and create attractive layouts. With these skills, you’ll be able to customize the appearance of your web pages to suit your every need!</p>
+    <p></p>
   </div>
   <div class="panel" id="three-panel">
     <div class="panel-title">难免有些感想</div>
-    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+    <p></p>
   </div>
   <!-- 添加新标签：复制这两行模板，选择其中一个进行更改 -->
 <!--
@@ -49,6 +47,10 @@ title: ma-cp的blog
 </body>
 
 <style>
+    a {
+    text-decoration: none;
+    color: inherit;
+    }
     .warpper{
       display:flex;
       flex-direction: column;
