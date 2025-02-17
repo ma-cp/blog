@@ -24,7 +24,8 @@ title: ma-cp的blog
   <div class="panels">
   <div class="panel" id="one-panel">
     <div class="panel-title">精益求精</div>
-    <p>[记github-pages](https://telegra.ph/%E8%AE%B0github-pages-02-17)
+    <p>
+        <a href="https://telegra.ph/%E8%AE%B0github-pages-02-17">记github-pages</a>
     </p>
   </div>
   <div class="panel" id="two-panel">
