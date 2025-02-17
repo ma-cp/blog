@@ -4,29 +4,45 @@ title: ma-cp的blog
 
 吾生也有涯，而知也无涯。以有涯逐无涯，殆已！
 
+<!-- 如果要添加新的一个标签，搜索关键字“添加新标签”，并按照搜索到的注释去更改 -->
+
 <body>
 <div class="warpper">
   <input class="radio" id="one" name="group" type="radio" checked>
   <input class="radio" id="two" name="group" type="radio">
   <input class="radio" id="three" name="group" type="radio">
+<!-- 添加新标签：复制这两行模板，选择其中一个进行更改 -->
+<!-- <input class="radio" id="{}" name="group" type="radio"> -->
+
   <div class="tabs">
-  <label class="tab" id="one-tab" for="one">CSS</label>
-  <label class="tab" id="two-tab" for="two">Skills</label>
-  <label class="tab" id="three-tab" for="three">Prerequisites</label>
+  <label class="tab" id="one-tab" for="one">Programmer💻</label>
+  <label class="tab" id="two-tab" for="two">Artist🎨</label>
+  <label class="tab" id="three-tab" for="three">🤔</label>
+  <!-- 添加新标签：复制这两行模板，选择其中一个进行更改 -->
+<!-- <label class="tab" id="{}-tab" for="{}">新标签的标题</label> -->
     </div>
   <div class="panels">
   <div class="panel" id="one-panel">
-    <div class="panel-title">Why Learn CSS?</div>
-    <p>Without CSS, every web page would be drab plain text and images that flowed straight down the page. With CSS, you can add color and background images and change the layout of your page — your web pages can feel like works of art!</p>
+    <div class="panel-title">精益求精</div>
+    <p>[记github-pages](https://telegra.ph/%E8%AE%B0github-pages-02-17)
+    </p>
   </div>
   <div class="panel" id="two-panel">
-    <div class="panel-title">Take-Away Skills</div>
+    <div class="panel-title">虽有智慧，不如乘势。</div>
     <p>You will learn many aspects of styling web pages! You’ll be able to set up the correct file structure, edit text and colors, and create attractive layouts. With these skills, you’ll be able to customize the appearance of your web pages to suit your every need!</p>
   </div>
   <div class="panel" id="three-panel">
-    <div class="panel-title">Note on Prerequisites</div>
+    <div class="panel-title">难免有些感想</div>
     <p>We recommend that you complete Learn HTML before learning CSS.</p>
   </div>
+  <!-- 添加新标签：复制这两行模板，选择其中一个进行更改 -->
+<!--
+  <div class="panel" id="{}-panel">
+    <div class="panel-title">新标签的内容标题</div>
+    <p>内容</p>
+  </div>
+ -->
+
   </div>
 </div>
 </body>
@@ -74,11 +90,21 @@ title: ma-cp的blog
     .radio{
       display:none;
     }
+
+/* 添加新标签：复制这两行模板，选择其中一个进行更改 */
+/*
+    #{}:checked ~ .panels #{}-panel,
+*/
     #one:checked ~ .panels #one-panel,
     #two:checked ~ .panels #two-panel,
     #three:checked ~ .panels #three-panel{
       display:block
     }
+
+/* 添加新标签：复制这两行模板，选择其中一个进行更改 */
+/*
+    #{}:checked ~ .tabs #{}-tab,
+*/
     #one:checked ~ .tabs #one-tab,
     #two:checked ~ .tabs #two-tab,
     #three:checked ~ .tabs #three-tab{
