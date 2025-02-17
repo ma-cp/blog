@@ -1,8 +1,6 @@
 theme: minima
 title: 随想随记
-author: 
-  name: ma-cp
-  email: ma.c.p@qq.com
+author: ma.c.p@qq.com
 description: 随笔但不为文学。
 header_pages:
   - about.md
