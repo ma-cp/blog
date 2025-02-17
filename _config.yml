@@ -2,3 +2,5 @@ theme: minima
 title: 随想随记
 author: ma-cp
 description: 随笔但不为文学。
+header_pages:
+  - about.md
