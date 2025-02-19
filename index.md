@@ -25,6 +25,7 @@ title: 🏠
   <div class="panel" id="one-panel">
     <div class="panel-title">精益求精</div>
     <p><a href="https://telegra.ph/%E8%AE%B0github-pages-02-17">记github-pages</a></p>
+    <p><a href="https://telegra.ph/%E8%AE%B0SQL-02-19">记SQL</a></p>
   </div>
   <div class="panel" id="two-panel">
     <div class="panel-title">虽有智慧，不如乘势。</div>
